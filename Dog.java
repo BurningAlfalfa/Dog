@@ -15,6 +15,10 @@ public class Dog{
         this.age = 4;
         this.agressive = true;
     }
+    public Dog(String name, int age){
+        this.name = name;
+        this.age =  age;
+    }
         public String printName(){
             return name+name+name;
         }

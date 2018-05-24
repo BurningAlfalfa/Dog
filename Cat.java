@@ -35,6 +35,11 @@ public class Cat {
         this.sucks = true;
         this.nice = sucks;
         this.age = age;
+
+    }
+    public Cat(String name, int age){
+        this.name = name;
+        this.age = age;
     }
     public int humanAge(){
         return age*10;

@@ -1,4 +1,14 @@
 public class Kennel {
+    private String kName;
+
+    public void setkName(String kName){
+        this.kName = kName;
+    }
+
+
+
+
+
 }
 //so kennal call shiould have its field variable, should be an array of dogs, an array of cats
 //the name of the kennel,
